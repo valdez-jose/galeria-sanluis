@@ -1,13 +1,26 @@
 
-import './visitaSection.module.css'
+import styles from "./VisitaSection.module.css"
 
-const VisitaSection = () => {
+export function VisitaSection() {
+
   return (
-    <div>
-      <h2>Visita Nuestra Ciudad San Luis</h2>
-    </div>
+    <section className={styles.visita}>
+
+      <img
+        src="https://agenciasanluis.com/wp-content/uploads/2017/10/Collage-turismo.jpg"
+        alt="San Luis"
+        className={styles.imagen}
+      />
+
+      <div className={styles.overlay}>
+        <h1>Visita San Luis</h1>
+
+        <p>
+          Descubrí paisajes increíbles, cultura y destinos únicos.
+          ¡Te esperamos!
+        </p>
+      </div>
+
+    </section>
   )
 }
-
-export default VisitaSection
-

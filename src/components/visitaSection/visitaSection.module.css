@@ -1,1 +1,42 @@
 
+.visita{
+  width:100%;
+  min-height:100vh;
+
+  display:flex;
+  justify-content:center;
+  align-items:center;
+
+  position:relative;
+
+  overflow:hidden;
+}
+
+/* imagen */
+
+.imagen{
+  width:100%;
+  height:100%;
+
+  object-fit:cover;   /* llena todo el ancho */
+
+  position:absolute;
+  top:0;
+  left:0;
+}
+
+/* texto */
+
+.overlay{
+  position:relative;
+
+  text-align:center;
+  color:white;
+
+  background:rgba(0,0,0,0.4);
+
+  padding:40px;
+  border-radius:10px;
+
+  max-width:600px;
+}

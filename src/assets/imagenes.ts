@@ -1,13 +1,14 @@
 
-import plaza_pringles from './plaza_pringles.jpg';
-import plaza_pringles2 from './plaza_pringles2.jpg';
-import plaza_pringles3 from './plaza_pringles3.jpg';
-import san_luis_capital from './san_luis-capital.jpg';
+import sanluis1 from './sanluis1.jpg';
+import sanluis2 from './sankuis2.jpg';
+import sanluis3 from './sanluis3.jpg';
+import sanluis4 from './sanluis4.jpg';
+
 
 export{
-    plaza_pringles,
-    plaza_pringles2,
-    plaza_pringles3,
-    san_luis_capital
+    sanluis1,
+    sanluis2,
+    sanluis3,
+    sanluis4
 }   
 
