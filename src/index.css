@@ -7,6 +7,10 @@
 
 html, body, #root{
   height:100%;
+  background:#f4f6f8;
+  color:#222;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height:1.6;
 }
 
 .layout{
@@ -17,4 +21,24 @@ html, body, #root{
 
 main{
   flex:1;
+}
+
+/* imágenes responsivas */
+
+img{
+  max-width:100%;
+  display:block;
+}
+
+/* links más limpios */
+
+a{
+  text-decoration:none;
+  color:inherit;
+}
+
+/* cursor para botones */
+
+button{
+  cursor:pointer;
 }

@@ -18,7 +18,7 @@ export function Footer() {
       </div>
 
       <p className={styles.copy}>
-        © 2026 Turismo San Luis
+        © 2026 Hecho por José Valdez con React y TypeScript.
       </p>
 
     </footer>
