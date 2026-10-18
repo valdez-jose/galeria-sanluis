@@ -1,5 +1,5 @@
 
-import styles from "./VisitaSection.module.css"
+import styles from "./visitaSection.module.css"
 
 export function VisitaSection() {
 
