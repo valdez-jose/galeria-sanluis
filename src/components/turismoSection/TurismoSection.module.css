@@ -1,72 +1,96 @@
 
+/* ===== ESTILOS GENERALES ===== */
 .section {
   width: 100%;
-  padding: 60px 80px;
+  padding: 20px 40px;
 }
 
 .title {
   text-align: center;
-  font-size: 36px;
-  margin-bottom: 40px;
-  color: #222; /* Asegurar que el título también sea visible */
+  font-size: 26px;
+  line-height: 1.2;
+  margin-bottom: 15px;
+  color: #222;
 }
 
-/* card principal */
+/* ===== CARD ===== */
 .card {
-  max-width: 1100px;
-  margin: auto;
+  width: 100%;
+  max-width: 1000px;
+  min-width: 0;
+  margin: 0 auto;
   display: flex;
-  gap: 40px;
+  gap: 20px;
   align-items: center;
 }
 
-/* imagen */
+/* ===== IMAGEN ===== */
 .card img {
-  width: 500px;
+   width: 600px;
+  max-width: 100%;
   height: 320px;
   object-fit: cover;
   border-radius: 10px;
+  flex-shrink: 0;
 }
 
-/* texto */
+/* ===== TEXTO ===== */
 .text {
   flex: 1;
+  min-width: 0;
+  overflow-wrap: break-word;
 }
 
 .text h3 {
-  font-size: 28px;
-  margin-bottom: 20px;
-  color: #222; /* Color oscuro para buena visibilidad */
+  font-size: 24px;
+  line-height: 1.3;
+  margin-bottom: 10px;
+  color: #222;
 }
 
 .text p {
-  font-size: 18px;
-  line-height: 1.6;
-  color: #555; /* Cambiado de blanco (#fff) a un gris oscuro legible */
+  font-size: 20px;
+  line-height: 1.5;
+  margin-top: 0;
+  margin-bottom: 8px;
+  color: #444;
 }
 
-/* responsive */
+/* ===== MÓVILES Y TABLETS ===== */
 @media (max-width: 900px) {
   .section {
-    padding: 30px 20px; /* Reducir padding lateral en móviles para ganar espacio */
+    padding: 20px 16px;
   }
 
   .card {
     flex-direction: column;
-    gap: 20px;
+    gap: 12px;
   }
 
   .card img {
     width: 100%;
-    height: 250px;
+    height: 210px;
+    flex-shrink: 1;
   }
 
   .text {
-    padding: 10px 0;
+    width: 100%;
+    padding: 5px 0;
+  }
+
+  .text h3 {
+    font-size: 23px;
+    margin-bottom: 10px;
+  }
+
+  .text p {
+    font-size: 17px;
+    line-height: 1.5;
+    margin-bottom: 8px;
   }
 
   .title {
-    font-size: 28px; /* Achicar un poco el título en móviles */
-    margin-bottom: 25px;
+    font-size: 25px;
+    margin-bottom: 18px;
   }
 }
