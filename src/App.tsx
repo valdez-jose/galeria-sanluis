@@ -1,12 +1,12 @@
 
 import { Routes, Route } from "react-router-dom"
 
-import { Navbar } from "./components/Navbar"
-import { Footer } from "./components/Footer"
-import { Header } from "./components/Header"
-import { TurismoSection } from "./components/TurismoSection"
-import { VideosSection } from "./components/VideosSection"
-import { VisitaSection } from "./components/VisitaSection"
+import { Navbar } from "./components/navbar/Navbar"
+import { Footer } from "./components/footer/Footer"
+import { Header } from "./components/header/Header"
+import { TurismoSection } from "./components/turismoSection/TurismoSection"
+import { VideosSection } from "./components/videosSection/VideosSection"
+import { VisitaSection } from "./components/visitaSection/VisitaSection"
 
 function App() {
   return (
